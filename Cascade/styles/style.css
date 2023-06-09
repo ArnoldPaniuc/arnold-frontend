@@ -1,0 +1,83 @@
+li:first-child {
+    background:cyan;
+}
+
+li:last-child{
+    background: lightcoral;
+}
+
+li:nth-child(2){
+    background: red;
+}
+
+span:first-of-type {
+    background-color: cyan;
+}
+
+span:last-of-type {
+    background-color: red;
+}
+/*
+span:nth-of-type(2) {
+    background-color: lightcoral;
+}
+*/
+.div-1::before {
+    content: 'I am div 1 before';
+    background-color: lightcoral;
+}
+/*
+.div-1::after {
+    content: 'I am div 1 before';
+    background-color: lightcoral;
+}
+*/
+.div-1 {
+    border: 1px solid black;
+}
+
+.div-2::first-line {
+    background-color: lightseagreen;
+}
+
+.div-2::first-letter {
+    color: red;
+}
+
+.div-2::selection {
+    background-color: lightgreen;
+    color: lightcoral;
+}
+
+div{
+    border: 1px solid #999
+}
+
+div.first-div.second-class{
+    background-color: lightcoral;
+}
+
+div[data-style]{
+    background-color: aqua;
+}
+
+div>p{
+    color: green;
+}
+
+div:nth-of-type(3) p:nth-of-type(2) {
+    color: red;
+}
+
+div > p {
+    color: orange;
+}
+
+p ~ span {
+    background-color: cyan;
+}
+
+input[type='checkbox']:checked + span {
+    background-color: lightcoral;
+}
+
