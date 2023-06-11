@@ -1,0 +1,19 @@
+label {
+    color: skyblue;
+}
+
+.box {
+    border: 1px solid green;
+}
+
+.email {
+    background-color: blue;
+}
+
+.order {
+    background-color: green;
+}
+
+.tabel {
+    background-color: salmon;
+}

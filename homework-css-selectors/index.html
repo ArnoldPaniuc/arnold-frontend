@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delivery</title>
+</head>
+<body>
+    <form class="tabel">
+        <fieldset>
+            <legend>
+                Pizza Order
+            </legend><br><br>
+                    <label for="yourname">First Name:</label>
+                    <input required class="box" type="text" name="yourname" id="yourname" placeholder="Your Name" min="3" max="10"><br><br>
+                    <label for="youremail">Your Email:</label>
+                    <input required class="email" type="email" name="email" id="yourenamil" placeholder="Your Email"><br><br>
+                Topping:
+                    <label>
+                        <input type="radio" value="supreme" name="topping" checked>
+                        <span>Supreme</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="hegetarian" name="topping">
+                        <span>Vegetarian</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="hawaian" name="topping">
+                        <span>Hawaian</span>
+                    </label><br><br>
+                Sauce:
+                    <select name="sauce">
+                        <option value="ketchup">Ketchup</option>
+                        <option selected value="bbq">BBQ</option>
+                        <option value="mayo">Mayo</option>
+                    </select><br><br>
+                Extras:
+                    <label>
+                        <input type="checkbox" value="cheese" name="extras" checked>
+                        <input type="number" name="number" min="1" max="7" value="1">
+                        <span>Cheese</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" value="onions" name="extras">
+                        <input type="number" name="number" min="1" max="7" value="1">
+                        <span>Onions</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" value="olives" name="extras">
+                        <input type="number" name="number" min="1" max="7" value="1">
+                        <span>Olives</span>
+                    </label><br><br>
+                Delivery Date:<br>
+                        <input type="date" name="data-delivery"><br><br>
+                Delivery instructions:<br>
+                        <textarea required name="textarea" cols="50" rows="10" placeholder="Delivery instructions...."></textarea><br><br>
+                        <input class="order" type="submit" value="Send order">
+                        <input class="order" type="reset" value="Reset">
+        </fieldset>
+    </form> 
+</body>
+</html>
