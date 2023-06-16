@@ -1,0 +1,55 @@
+.parent {
+    width: 800px;
+    height: 300px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, 25%);
+    position: relative;
+    background-color: #abc7ba;
+    border: 5px dotted #7e5f8a;
+}
+
+div {
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.child1{
+    width: 320px;
+    height: 200px;
+    top: 0%; 
+    left: 0%;
+    position: absolute;
+    background-color: #518f8c;
+    border: 5px dotted;
+}
+
+.child2{
+    width: 300px;
+    height: 200px;
+    top: 17%; 
+    left:26%;
+    position: absolute;
+    background-color: #a282b3;
+    border: 5px dotted;
+    z-index: 10;
+}
+
+.child3{
+    width: 300px;
+    height: 200px;
+    top: 9%; 
+    left:56%;
+    position: absolute;
+    background-color: #acb881;
+    border: 5px dashed;
+}
+
+.child {
+    border: dashed 5px #7e5f8a;
+}
+
