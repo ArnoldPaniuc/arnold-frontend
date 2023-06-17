@@ -1,0 +1,33 @@
+.square1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+    transform: translate(-0%, -0%);
+    background: yellow;
+}
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+    transform: translate(50%, 50%);
+    background: blue;
+}
+
+.square3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+    transform: translate(100%, 100%);
+    background: green;
+}
+
+body {
+    background-color: gray;
+}
