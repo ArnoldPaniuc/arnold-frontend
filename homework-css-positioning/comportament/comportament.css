@@ -31,7 +31,7 @@ h2 {
 .child2{
     width: 300px;
     height: 200px;
-    top: 17%; 
+    bottom: 0; 
     left:26%;
     position: absolute;
     background-color: #a282b3;
