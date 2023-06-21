@@ -1,0 +1,115 @@
+/* #image {
+    width: 300px;
+    height: 200px;
+    border: 5px solid red;
+    border-style: dotted;
+    background-clip: border-box;
+    padding: 15px;
+    background-image: url("https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fc47f6830-9292-11ed-b04f-b9bf191ef388.jpg?crop=5879%2C3919%2C0%2C0");
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+div.background {
+    background: url("https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fc47f6830-9292-11ed-b04f-b9bf191ef388.jpg?crop=5879%2C3919%2C0%2C0") repeat;
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+.transbox:hover {
+    background-color: red;
+    opacity: 0.5;
+} */
+
+body {
+  margin:0 ;
+}
+
+/* .flex-container {
+  margin: 50px;
+  height: 250px;
+  width: 500px;
+  border: 1px solid red;
+  padding: 10px;
+  display: flex; */
+  /* flex-direction: row-reverse column; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; cand copii sunt mai mari ca parintele si se pune in ordine */
+  /* flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center; */
+/* } */
+
+
+/* .flex-container div {
+  border: 1px solid blue;
+  font-size: 50px;
+  height: 50px;
+  padding: 30px; */
+  /* order: 2; */
+/* } */
+
+/* #order1 {
+  order: 1;
+} */
+
+/* #header {
+  top: 0;
+  right: 0;
+  height: 10px;
+  width: 500px;
+}
+
+#aside1 {
+  top: -50%;
+} */
+
+.container {
+  height: 300px;
+}
+
+header footer {
+  height: 70px;
+}
+
+header {
+  background-color: red;
+  text-align: center;
+}
+
+footer {
+  background-color: green;
+  text-align: center;
+}
+
+aside {
+  background-color: yellow;
+  text-align: center;
+}
+
+main {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.section-container {
+  display: flex;
+}
+
