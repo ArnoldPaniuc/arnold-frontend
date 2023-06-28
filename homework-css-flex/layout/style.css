@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    width: 450px;
+    height: 500px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.container-2{
+    width: 450px;
+    display: flex;
+    gap: 10px;
+}
+
+.side-red-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 225px;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.vertical{
+    display: flex;
+    width: 225px;
+    height: 125px;
+    background-color: turquoise;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.tiles{
+    display: flex;
+    width: 225px;
+    height: 125px;
+    background-color:#e6c85c;
+    box-sizing: border-box;
+    padding: 20px;
+    color: black;
+    flex-direction: column;
+}
+
+.middle{
+    display: flex;
+    width: 250px;
+    background-color: #4088f5;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.wide-tile{
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eb3467;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.tall-tile{
+    display: flex;
+    width: 250px;
+    height: 500px;
+    background-color:#67e667;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+
+h5{
+    margin: 5px 0 10px 0;
+}
