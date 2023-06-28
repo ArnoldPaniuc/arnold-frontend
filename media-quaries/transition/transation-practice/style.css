@@ -1,0 +1,57 @@
+
+.patrat{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 500ms linear 200ms;
+}
+
+.patrat:hover {
+    background-color: yellow;
+    transform: rotate(180deg);
+}
+
+.parinte:hover{
+    .rosu{
+        width: 300px;
+        transition-duration: 2s;
+    }
+    .albastru{
+        width: 300px;
+        transition-duration: 2s;
+        transition-delay: 2s;
+    }
+}
+
+.rosu{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.albastru{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.hover {
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.hover:hover {
+    opacity: 1.0;
+    transition-duration: 1s;
+}
+
+.flip{
+    width: 200px;
+    height: 200px;
+}
+
+.flip:hover {
+    transform: rotateX(180deg);
+    transition-duration: 1s;
+}
