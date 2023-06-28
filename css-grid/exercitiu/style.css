@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: 25% 25% auto;
+    height: calc(160px * 3);
+    gap: 10px;
+}
+
+.vertical {
+    background-color: aquamarine;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.middle-tile {
+    background-color: aqua;
+    grid-column: 2 / 2;
+    grid-row: 1 / span 2;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 10% auto;
+    gap: 5px;
+}
+
+.middle-image {
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+}
+
+.middle-tile h2,
+.middle-tile p {
+    margin-left: 10px;
+}
+.tall-tile {
+ background-color: green;
+ grid-row: 1/4;
+}
+
+.tiles {
+ background-color: yellow;
+ grid-column: 1/2 ;
+}
+
+.wide-tile{
+    background-color: red;
+    grid-column: 1/3;
+}

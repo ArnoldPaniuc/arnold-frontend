@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: 25% 25% 25% auto;
+    height: 300px;
+    width: 30px;
+    gap: 10px;
+}
+
+.a {
+    background-color: aquamarine;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.b {
+    background-color: black;
+    grid-column: 1 /2;
+    grid-row: 2;
+}
+
+.d {
+    background-color: blueviolet;
+    grid-column: 1 / 2;
+    grid-row: 3 / span 3;
+}
+
+.c {
+    background-color: red;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.e {
+    background-color: yellow;
+    grid-column: 2 / 2;
+    grid-row: 3 / span 3;
+}
+
+.f {
+    background-color: aqua;
+    grid-column: 3 ;
+    grid-row: 3;
+}
+
+.g {
+    background-color: aquamarine;
+    grid-column: 3;
+    grid-row: 4;
+}
