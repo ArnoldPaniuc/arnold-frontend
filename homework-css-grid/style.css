@@ -1,0 +1,51 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Segoe UI";
+}
+
+#app {
+	height: 100%;
+    font-size: 13px;
+    background-color: #cececec2;
+	height: 506px;
+	width: 323px;
+	border: 1px solid black;
+	position: relative;
+	margin: auto;
+    top: 20px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.minimize-img , .full-img , .close-img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.calculator{
+    padding: 5px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 2fr 3fr 8fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.menu-img , .full-2-img , .history-img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+
