@@ -1,0 +1,184 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Segoe UI";
+}
+
+#app {
+	height: 100%;
+    font-size: 13px;
+    background-color: #cececec2;
+	height: 663px;
+	width: 423px;
+	border: 1px solid black;
+	position: relative;
+	margin: auto;
+    top: 20px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.calculator{
+    padding: 5px;
+}
+
+.standard{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.full-2{
+    visibility: hidden;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 2fr 3fr 8fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-2{
+    display: grid;
+    justify-content: center;
+}
+
+
+.fa-2x{
+    font-size: 15px;
+}
+
+.full-2-img, .menu-img{
+    width: 25px;
+    height: 25px;
+}
+
+.fa-clock-rotate-left{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+}
+
+.display{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    padding: 10px;
+}
+
+#main-display{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.top-deg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 4px;
+	margin-right: 4px;
+}
+
+.top-d{
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.top-fun{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    margin-left: 4px;
+	margin-right: 4px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.top-f{
+    display: grid;
+    align-items: baseline;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.img-2{
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    width: 25px;
+    height: 25px;
+}
+
+.fun{
+    display: grid;
+    justify-content: start;
+    align-items: start;
+}
+
+.funct{
+    display: grid;
+    font-weight: bold;
+    justify-content: end;
+    align-items: end;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.top-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 4px;
+	margin-right: 4px;
+}
+
+.top-b{
+    justify-self: center;
+}
+
+.top-bg{
+    color: #999999;
+}
+
+.buttons{
+    display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(7,.6fr);
+	margin-left: 4px;
+	margin-right: 4px;
+	grid-gap: 4px;
+	margin-top: 4px;
+}
+
+.btn {
+	text-align: center;
+	background-color: #ffffff75;
+	height: 36px;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#faa{
+    background-color: rgb(126, 169, 235);
+}
+
+
+
+
+
+
+
+
+
