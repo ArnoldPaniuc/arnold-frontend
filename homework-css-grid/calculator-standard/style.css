@@ -1,0 +1,107 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Segoe UI";
+}
+
+#app {
+	height: 100%;
+    font-size: 13px;
+    background-color: #cececec2;
+	height: 506px;
+	width: 323px;
+	border: 1px solid black;
+	position: relative;
+	margin: auto;
+    top: 20px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.calculator{
+    padding: 5px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 2fr 3fr 8fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+}
+
+.fa-2x{
+    font-size: 15px;
+}
+
+.full-2-img, .menu-img{
+    width: 15px;
+    height: 15px;
+}
+
+.display{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    padding: 10px;
+}
+
+#main-display{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.top-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 4px;
+	margin-right: 4px;
+}
+
+.top-b{
+    justify-self: center;
+}
+
+.top-bg{
+    color: #999999;
+}
+
+.buttons{
+    display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(6,.5fr);
+	margin-left: 4px;
+	margin-right: 4px;
+	grid-gap: 4px;
+	margin-top: 4px;
+}
+
+.btn {
+	text-align: center;
+	background-color: #ffffff75;
+	height: 36px;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#faa{
+    background-color: rgb(126, 169, 235);
+}
+
+
+
+
+
+
+
+
+

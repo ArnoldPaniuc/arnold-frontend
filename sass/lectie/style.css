@@ -1,0 +1,65 @@
+body, html, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body, html, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #333;
+  background-color: salmon;
+}
+
+nav {
+  background-color: salmon;
+}
+nav ul {
+  color: blue;
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 16px;
+  padding: 8px;
+}
+nav ul li a {
+  background-color: cyan;
+  text-decoration: none;
+  color: black;
+  margin: 4px;
+  padding: 8px;
+}
+nav ul li a:hover span {
+  color: red;
+}
+nav ul li a span:hover {
+  color: blue;
+}
+
+.link-button, .out-line-button, .primary-button {
+  width: 120px;
+  color: #333;
+  background-color: salmon;
+  padding: 8px;
+  cursor: pointer;
+}
+.link-button:hover, .out-line-button:hover, .primary-button:hover {
+  opacity: 0.8;
+}
+
+.out-line-button {
+  background-color: transparent;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.link-button:hover {
+  color: blue;
+  border-color: blue;
+}/*# sourceMappingURL=style.css.map */
