@@ -1,135 +1,61 @@
 body {
-  background-color: #21242d;
+  margin: 0;
+  padding: 0;
+  background-color: #2b5671;
+  color: white;
 }
-body .box {
-  width: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+body .content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-body .box .dot-1 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #74f59a;
+body .content .top {
+  text-align: center;
+  margin-top: 250px;
+  animation: toptitle 2s;
   position: relative;
-  animation-name: dot1;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
 }
-body .box .dot-2 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #74f59a;
+body .content .middle {
+  text-align: center;
+  width: 700px;
+  animation: middletitle 3s;
   position: relative;
-  left: 75px;
-  top: -50px;
-  animation-name: dot2;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
 }
-body .box .dot-3 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #74f59a;
-  position: relative;
-  left: 150px;
-  top: -100px;
-  animation-name: dot3;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+body .content .btn {
+  background-color: rgba(255, 255, 255, 0.4588235294);
+  height: 36px;
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 19px;
+  border: 1px solid gray;
+  top: 200px;
+  animation: pop 3s;
 }
 
-@keyframes dot1 {
+@keyframes pop {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  16.67% {
-    left: 0;
-    top: 100px;
-  }
-  33.33% {
-    left: 0;
-    top: 100px;
-  }
-  50% {
-    left: 0;
-    top: 100px;
-  }
-  66.67% {
-    left: 0px;
-    top: 0px;
-  }
-  83.33% {
-    left: 0px;
-    top: 0px;
+    transform: scale(0);
   }
   100% {
-    left: 0px;
+    transform: scale(0);
+  }
+}
+@keyframes toptitle {
+  from {
+    top: -700px;
+  }
+  to {
     top: 0px;
   }
 }
-@keyframes dot2 {
-  0% {
-    left: 75px;
-    top: -50px;
+@keyframes middletitle {
+  from {
+    left: -700px;
   }
-  16.67% {
-    left: 75px;
-    top: -50px;
-  }
-  33.33% {
-    left: 75px;
-    top: 50px;
-  }
-  50% {
-    left: 75px;
-    top: 50px;
-  }
-  66.67% {
-    left: 75px;
-    top: 50px;
-  }
-  83.33% {
-    left: 75px;
-    top: -50px;
-  }
-  100% {
-    left: 75px;
-    top: -50px;
-  }
-}
-@keyframes dot3 {
-  0% {
-    left: 150px;
-    top: -100px;
-  }
-  16.67% {
-    left: 150px;
-    top: -100px;
-  }
-  33.33% {
-    left: 150px;
-    top: -100px;
-  }
-  50% {
-    left: 150px;
-    top: 0px;
-  }
-  66.67% {
-    left: 150px;
-    top: 0px;
-  }
-  83.33% {
-    left: 150px;
-    top: 0px;
-  }
-  100% {
-    left: 150px;
-    top: -100px;
+  to {
+    left: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
