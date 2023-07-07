@@ -1,0 +1,77 @@
+body{
+    background-color: #21242d;
+    .box{
+        width: 200px;
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .dot-1{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #74f59a;
+            position: relative;
+            animation-name: dot1;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+
+        .dot-2{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #74f59a;
+            position: relative;
+            left: 75px;
+            top: -50px;
+            animation-name: dot2;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+
+        .dot-3{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #74f59a;
+            position: relative;
+            left: 150px;
+            top: -100px;
+            animation-name: dot3;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+@keyframes dot1{
+    0% {left: 0px; top: 0px;}
+    16.67% {left: 0; top:100px;}
+    33.33%{left: 0; top:100px;}
+    50%{left: 0; top:100px;}
+    66.67%{left: 0px; top: 0px;}
+    83.33%{left: 0px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+  }
+  
+  @keyframes dot2{
+    0% {left: 75px; top: -50px;}
+    16.67% {left: 75px; top:-50px;}
+    33.33%{left: 75px; top:50px;}
+    50%{left: 75px; top:50px;}
+    66.67%{left: 75px; top: 50px;}
+    83.33%{left: 75px; top: -50px;}
+    100% {left: 75px; top: -50px;}
+  }
+  
+  @keyframes dot3{
+    0% {left: 150px; top: -100px;}
+    16.67% {left: 150px; top:-100px;}
+    33.33%{left: 150px; top:-100px;}
+    50%{left: 150px; top:0px;}
+    66.67%{left: 150px; top: 0px;}
+    83.33%{left: 150px; top: 0px;}
+    100% {left: 150px; top: -100px;}
+  }

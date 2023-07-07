@@ -1,0 +1,59 @@
+@import "colors";
+@import "reset";
+@import "spacing";
+@import "mixins";
+
+p {
+    color: $text;
+    background-color: $primary;
+}
+
+nav {
+    background-color: $primary;
+
+    ul{
+        color: $textSecondary;
+        display: flex;
+        list-style: none;
+
+        li{
+            margin-left: $spacing-lg;
+            padding: $spacing-m; 
+
+            @include linkStyle(cyan, red)
+        }
+    }
+}
+
+%buttonStyle{
+    width: 120px;
+    color: $text;
+    background-color: $primary;
+    padding: $spacing-m;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8
+    }
+}
+
+.primary-button {
+    @extend %buttonStyle;
+}
+
+.out-line-button {
+    @extend %buttonStyle;
+    background-color: transparent;
+}
+
+.link-button{
+    @extend %buttonStyle;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+
+    &:hover{
+        color: blue;
+        border-color: blue;
+    }
+}
