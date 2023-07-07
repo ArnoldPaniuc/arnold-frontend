@@ -1,0 +1,21 @@
+.transition-div-ease-in {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  transition: background-color 2s ease-in 200ms;
+}
+
+.transition-div-ease-in:hover {
+  background-color: green;
+}
+
+.transition-div-ease-out {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: width 2s ease-out 200ms;
+}
+
+.transition-div-ease-out:hover {
+  width: 400px;
+}
