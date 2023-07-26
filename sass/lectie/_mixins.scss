@@ -1,0 +1,21 @@
+@mixin linkStyle($bgColor, $hoverColor) {
+    a{
+        background-color: cyan;
+        text-decoration: none;
+        color: black;
+        margin: 4px;
+        padding: $spacing-m;
+
+        &:hover{
+            span{
+                color: red;
+            }
+        }
+
+        span{
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
