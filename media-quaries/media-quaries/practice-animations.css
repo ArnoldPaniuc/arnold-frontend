@@ -1,0 +1,44 @@
+@keyframes plimbaret {
+  0% {
+      transform: translate(0, 0);
+      background-color: magenta;
+    }
+  
+  25% {
+    transform: translate(0, 450px);
+    background-color: yellow;
+  }
+
+  50% {
+    transform: translate(450px, 450px);
+    background-color: green;
+  }
+
+  75% {
+    transform: translate(450px, 0);
+    background-color: orange;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    background-color: magenta;
+  }
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+
+  animation-name: plimbaret;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
