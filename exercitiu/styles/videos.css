@@ -1,0 +1,13 @@
+.video{
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
