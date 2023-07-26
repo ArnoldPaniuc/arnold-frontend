@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (width < 620px) {
+  .main {
+    height: 100vh;
+    background-image: url("../images/orange.png");
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    background-color: #4abdf2;
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .main .title {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+  }
+  .main header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main .logo {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .main i {
+    font-size: 21px;
+  }
+  .main .arrow-down {
+    height: 150px;
+  }
+  .presentation-image {
+    height: auto;
+  }
+  .presentation-image img {
+    width: 100%;
+  }
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 24px;
+  }
+  .sub-title {
+    font-family: "Fraunces", serif;
+    color: #24303e;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+  }
+  .paragraph {
+    color: #808397;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.5;
+  }
+  .learn-more {
+    font-family: "Fraunces", serif;
+    color: #24303e;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .learn-more::before {
+    content: "";
+    display: block;
+    background-color: #fad400;
+    height: 10px;
+    border-radius: 2px;
+    width: 110%;
+    position: absolute;
+    bottom: 0px;
+    left: -5%;
+    z-index: -1;
+  }
+  .learn-more--pink::before {
+    background-color: pink;
+  }
+  .fruit-container {
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  .fruit-container .fruit-title {
+    font-size: 28px;
+    font-family: "Fraunces", serif;
+  }
+  .fruit-container .fruit-paragraph {
+    line-height: 27px; /* 168.75% */
+    letter-spacing: -0.114px;
+  }
+  .cherry {
+    background-image: url("../images/cherries.jpg");
+    color: #24554A;
+  }
+  .clementine {
+    background-image: url("../images/clementine.jpg");
+    color: #19536C;
+  }
+  .testimonials-section .testimonials-title {
+    color: #A7AAAD;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .testimonials-section .testimonials-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials-section .testimonials-container .testimonial {
+    margin: 64px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-avatar img {
+    width: 100%;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-review-text {
+    text-align: center;
+    margin: 32px 0;
+    font-weight: 600;
+    line-height: 32px;
+    color: #5B636D;
+    font-size: 18px;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-info {
+    text-align: center;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-info .name {
+    margin: 9px 0;
+    letter-spacing: -0.129px;
+    font-family: "Fraunces", serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #24303E;
+  }
+  .testimonials-section .testimonials-container .testimonial .client-info .job-title {
+    margin: 0;
+    line-height: 25px;
+    color: #A7AAAD;
+    font-weight: 600;
+  }
+  .gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .gallery-section .gallery-photo-container {
+    width: 50%;
+    height: 50vw;
+  }
+  .gallery-section .gallery-photo-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .footer-section {
+    padding: 64px 39px 80px;
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section .footer-logo {
+    fill: #2C7566;
+  }
+  .footer-section .footer-links {
+    width: 100%;
+    margin: 40px 0 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-section .footer-links a {
+    text-decoration: none;
+    color: #458D7E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px; /* 138.889% */
+    letter-spacing: -0.129px;
+  }
+  .footer-section .footer-socials {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=main.mobile.css.map */
