@@ -48,6 +48,65 @@
 
 // console.log(getCount("vasfdgesrtawvr"))
 
+// const numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// function isEven(element){
+//     return element % 2 === 0;
+// }
+
+// function isUneven(element){
+//     return element % 2 === 1;
+// }
+
+// const evenNumbers = numbers.filter(isEven);
+// const unevenNumbers = numbers.filter(isUneven);
+
+// console.log(evenNumbers, unevenNumbers);
+
+// const unevenNumbers2 = numbers.filter();
+
+
+var numbers = [ 1, 5 ,4 ,8 ,10, 3];
+
+numbers.map(function greaterThanFive(el) {
+    return el * 2;
+})
+
+var numbers = [1, 5, 4, 8, 10, 3];
+
+var halfNumbers = numbers.map(function(el) {
+    return el / 2; 
+});
+
+console.log(halfNumbers);
+
+var numbers = [1, 5, 4, 8, 10, 3];
+
+var squaredNumbers = numbers.map(function(el) {
+    return el * el; 
+});
+
+console.log(squaredNumbers);
+
+
+function transformArray(arr, transformFunction) {
+    return arr.map(transformFunction);
+}
+var numbers = [1, 5, 4, 8, 10, 3];
+
+function square(num) {
+    return num * num;
+}
+
+function half(num) {
+    return num / 2;
+}
+
+var squaredNumbers = transformArray(numbers, square);
+var halfNumbers = transformArray(numbers, half);
+
+console.log(squaredNumbers); 
+console.log(halfNumbers);   
+
 // const h2 = document.getElementById("h2")
 // setTimeout(() =>{
 //     h2.style.color = "red"
