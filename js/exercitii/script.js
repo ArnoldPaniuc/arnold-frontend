@@ -107,3 +107,12 @@ var halfNumbers = transformArray(numbers, half);
 console.log(squaredNumbers); 
 console.log(halfNumbers);   
 
+// const h2 = document.getElementById("h2")
+// setTimeout(() =>{
+//     h2.style.color = "red"
+// }, 2000);
+// console.log(h2, h2.nodeType)
+
+// const classes = document.getElementsByClassName("text")
+// console.log(classes)
+
